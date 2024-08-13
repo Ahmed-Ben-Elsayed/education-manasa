@@ -1,0 +1,53 @@
+.register{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.register form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.register form input{
+    padding: 10px ;
+    border-radius: 10px;
+    outline: none;
+    border:1px solid #ddd;
+} .register form input::placeholder{
+    color: #878686;
+    font-size:17px;
+}
+.register form button{
+    background-color: #8503D0;
+    padding: 10px;
+    width: max-content;
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    border-radius: 10px;
+    outline:none;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #8503D0;
+}
+.register form button:hover{
+    background-color: transparent;
+    color: #8503D0;
+    transition: 0.4s;
+}
+.register form a {
+    text-decoration: none;
+    color: #8503D0;
+}

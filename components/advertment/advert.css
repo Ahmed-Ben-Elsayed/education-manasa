@@ -1,0 +1,72 @@
+.advert {
+    width: 100%;
+    height: max-content;
+    background-color: #8503D0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.advert .advert-right {
+    width: 50%;
+}
+
+.advert .advert-right img {
+    width: 100%;
+}
+
+.advert .advert-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.advert span {
+    color: #a6e1f3;
+}
+
+.advert p {
+    color: #ddd;
+}
+
+.mark {
+    width: 30%;
+    height: 6px;
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: #ddd;
+}
+
+/* button  */
+.shadow__btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 25px;
+    color: #ffffff;
+    border-radius: 7px;
+    font-weight: 700;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    cursor: pointer;
+    width: 30%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.shadow__btn {
+    background: #F4AAE4;
+    box-shadow: 0 0 25px #BADEEA;
+}
+
+.shadow__btn:hover {
+    background: transparent;
+    border: 1px solid #F4AAE4;
+    color: #F4AAE4;
+    transition: 0.4s;
+}

@@ -1,0 +1,72 @@
+header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: max-content;
+    justify-content:center;
+    align-items: center;
+    margin-bottom:2px!important   ;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+header .header-right {
+    font-size: 45px;
+    text-align: center;
+    width: 50%;
+    margin-right: 30px;
+}
+
+header .header-right .start-name {
+    color: #9900CC;
+}
+
+header .header-right .salah {
+    color: #9900CC;
+}
+
+header .header-right .math {
+    color: #9900CC;
+}
+
+header .header-right .secandry {
+    color: #9900CC;
+}
+
+header .header-right .name {
+    background-image: url('../../src/imges/text-back.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+header .header-right .name .background_name {
+    width: max-content;
+    height: 100%;
+    background-color: #B1DAE7;
+    clip-path: polygon(3% 0, 82% 0, 100% 68%, 19% 66%);
+
+}
+
+header .header-left {
+    width: max-content;
+    margin-left: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -30px;
+}
+
+header .header-left .header_img {
+    background-image: url('../../src/imges/headerimg.png');
+    background-size: 100%;
+    width: 100%;
+}
